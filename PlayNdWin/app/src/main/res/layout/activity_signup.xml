@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient"
+    tools:context="com.heenasharma.playndwin.Signup">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="150dip"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/logo"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dip"
+        android:background="@color/colorAccent"/>
+    <TextView
+        android:textColor="@android:color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register Here"
+        android:textSize="22dip"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dip"/>
+
+    <TextView
+        android:textColor="@android:color/white"
+        android:text="Please Fill the required details"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:textStyle="italic"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"
+        android:layout_width="match_parent"
+        android:inputType="text"
+        android:layout_height="wrap_content"
+        android:hint=" First Name"
+        android:id="@+id/f_name"
+        android:padding="8dip"/>
+    <EditText
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"
+        android:inputType="text"
+        android:layout_marginTop="10dip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint=" Last Name"
+        android:id="@+id/l_name"
+        android:padding="8dip"/>
+    <EditText
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"
+        android:inputType="textEmailAddress"
+        android:layout_marginTop="10dip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint=" Email Address"
+        android:id="@+id/email"
+        android:padding="8dip"/>
+    <EditText
+        android:textColorHint="@android:color/white"
+        android:textColor="@android:color/white"
+        android:inputType="textPassword"
+        android:layout_marginTop="10dip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint=" Password"
+        android:id="@+id/pwd"
+        android:padding="8dip"/>
+    <EditText
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"
+        android:inputType="textPassword"
+        android:layout_marginTop="10dip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint=" Confirm Password"
+        android:id="@+id/c_pwd"
+        android:padding="8dip"/>
+    <EditText
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"
+        android:inputType="number"
+        android:layout_marginTop="10dip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint=" Contact Number"
+        android:id="@+id/c_no"
+        android:maxLength="10"
+        android:padding="8dip"/>
+    <Button
+        android:text="Register"
+        android:layout_width="150dip"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dip"
+        android:id="@+id/reg"
+        android:textColor="#FF4845"
+        android:background="@drawable/oval" />
+</LinearLayout>
+</ScrollView>

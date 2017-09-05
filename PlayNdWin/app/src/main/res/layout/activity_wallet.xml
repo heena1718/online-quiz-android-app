@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_wallet"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:background="@drawable/gradient"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.heenasharma.playndwin.Wallet">
+
+    <TextView
+        android:layout_marginTop="150dip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total Points in your wallet"
+        android:textColor="@android:color/white"
+        android:textSize="22dip"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dip"/>
+
+    <TextView
+        android:layout_marginTop="50dip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textColor="@android:color/white"
+        android:textSize="22dip"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:id="@+id/points"
+        android:layout_marginBottom="10dip"/>
+
+    <Button
+        android:text="Redeem points"
+        android:layout_width="170dip"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dip"
+        android:id="@+id/redeem"
+        android:textColor="#FF4845"
+        android:background="@drawable/oval" />
+
+</LinearLayout>
